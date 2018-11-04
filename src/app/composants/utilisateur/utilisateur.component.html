@@ -1,0 +1,22 @@
+<h1>HELLO {{ nom }} , vous avez {{ age }}</h1>
+<ul>
+  <li>
+    Votre email est : {{email}}
+  </li>
+
+  <li>
+   Votre hobbies sont : {{hobby.hobby3}}, {{hobby.hobby2}}, {{hobby.hobby1}}
+  </li>
+
+</ul>
+
+<button (click)="onClick()">Plus d'information</button>
+
+<h1>Editer</h1>
+<form action="">
+<div>
+  <label>Nom</label>
+  <input type="text" [(ngModel)]="nom" name="nom">
+</div>
+</form>
+
